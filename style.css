@@ -39,7 +39,7 @@
 
 .btn:hover {
     background-color: beige;
-    color: #424242;
+    color: #000000;
 }
 
 main {
@@ -181,16 +181,41 @@ main  > section {
 }
 
 .your-feature-item {
-    background-color: whitesmoke;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     padding: 30px 42px 30px 30px;
     margin-bottom: 15px;
     border-radius: 8px;
+    text-align: left;
+}
+
+#features-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 35px;
 }
 
 .feature-item-title {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+#experience-badge {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 45px 42px;
+    margin-left: -92px;
+    margin-top: -92px;
+}
+
+#experience-badge:hover {
+    background-color: beige;
+    color: #000000;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 .your-features-img img {
@@ -206,6 +231,10 @@ main  > section {
         margin: 20px;
     }
 
+    #experience-badge {
+        margin-top: 20px;
+    }
+
     .your-features-img img {
         width: 100%;
     }
@@ -217,6 +246,10 @@ main  > section {
         grid-template-columns: 1fr;
         gap: 50px;
         text-align: center;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
     }
 }
 
