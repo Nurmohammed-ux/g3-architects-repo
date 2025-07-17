@@ -361,3 +361,31 @@ main  > section {
         align-items: center;
     }
 }
+
+/* Footer Styles */
+
+footer {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 220px 100px 220px;
+    height: 90px;
+    padding: 40px 410px;
+}
+
+@media screen and (max-width: 576px) {
+
+    footer {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width) {
+
+    footer {
+        text-align: left;
+        margin: 0;
+        padding: 20px;
+    }
+}
